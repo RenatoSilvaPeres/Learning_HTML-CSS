@@ -1,0 +1,768 @@
+
+body {
+	
+	background: linear-gradient(to top, #92bcde, #40ffed, #7ea2bf);
+	background-size: 400% 400%;
+	background-attachment: fixed;
+	height: 200vh;
+	margin: 0;
+
+}
+
+
+@keyframes gear {
+
+0% {
+	transform: rotate(0deg);
+}
+
+
+100%{
+	transform: rotate(360deg);
+}
+}
+
+@keyframes inicio {
+
+0% {
+	top: 60rem ;
+}
+
+
+100%{
+	top: 30rem ;
+}
+}
+
+@keyframes foto {
+0% {
+	top: 60rem ;
+}
+100%{
+	top: 16rem ;
+}
+}
+
+@keyframes color {
+
+0% {
+	background-position: 0% 50%;
+}
+50%{
+	background-position: 50% 100%;
+}
+
+100%{
+	background-position: 0% 50%;
+}
+}
+
+@keyframes nave {
+
+0% {
+	opacity: 0.7;
+}
+
+50%  {
+	opacity: 1;
+}
+
+
+100% {
+	opacity: 0.7;
+}
+}
+
+@keyframes roda {
+
+	
+
+0%  {
+	transform: rotate (360deg);
+}
+50% {
+	transform: rotate(360deg);
+}
+100%{
+	transform: rotate(15deg);
+}
+	
+}
+
+
+
+
+
+.fundo {
+	opacity: 0.6;
+	border-radius: 6.25rem; 
+	background-color: #ffd8be;
+	width: 48.75rem;	
+	height: 25rem;	
+	position: absolute;
+	
+}
+
+.degrade-fundo {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffc5bf;
+	width: 50rem;	
+	height: 25.32rem;
+	position: absolute;
+	
+}
+
+.degrade2-fundo {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 51.25rem;	
+	height: 25.63rem;
+	position: absolute;
+
+}
+
+.degrade3-fundo {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:#ff968a;
+	width: 52.5rem;	
+	height: 25.94rem;
+	position: absolute;
+	
+
+}
+.caixa {
+	
+	position: relative;
+	width: 62.5rem;
+	height: 25rem;
+	margin-left: 8.125rem;
+	
+	
+	
+	
+}
+
+
+.lista li {
+	display: inline-block;
+}
+
+
+
+
+
+
+a {
+	
+	
+	width: 40%;
+	height: 35%;
+	
+	text-align: center;	
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1.5px 1.5px 1px #cccccc;
+	box-sizing: border-box;
+
+}
+.config a:hover {
+	background-color: white;
+	color:#FF4081;
+	top: 0.94rem;
+	transition: top 0.5s;
+	font-size: 5.62rem;
+	opacity: 1;
+	
+	
+}
+
+.config a{
+	
+	background-color: #FFAABE;
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	border-radius: 5.81rem;
+	font-size: 0;
+	padding-top: 1.25rem;
+	animation: nave 1.5s ease infinite;
+	
+	
+	
+}
+
+
+.sobre a:hover {
+	background-color: white ;
+	color:#FF4081;
+	top: 45px;
+	transition: top 0.5s;
+	font-size: 5.51rem;
+	opacity: 1;
+	padding-top: 0.93rem;
+	
+	
+}
+
+.sobre a{
+	
+	background-color: #FF8BA9;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	border-radius: 6.25rem;
+	font-size: 0;
+	animation: nave 1.5s ease infinite;
+}
+
+.contato a:hover {
+	
+	background-color: white;
+	color: #FF4081;
+	top: 5.625rem;
+	transition: top 0.5s;
+	font-size: 4.81rem;
+	opacity: 1;
+		
+}
+
+.contato a{
+	
+	background-color: #FF6A95;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	border-radius: 6.25rem;
+	font-size: 0;
+	padding-top: 1.25rem;
+	animation: nave 1.5s ease infinite;
+	
+}
+
+
+.home a:hover {
+	color: #FF4081;
+	background-color: white;
+	opacity: 1;
+}	
+
+
+.home a {
+	
+	background-color: #FF4081;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	border-radius: 6.25rem;
+	font-size: 6.25rem;
+	padding-top: 0.75rem;
+	animation: nave 1.5s ease infinite;
+	
+	
+}
+
+.degrade-form {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 57.5rem;	
+	height: 25rem;	
+	position: absolute;
+}
+
+.degrade2-form {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffc5bf;
+	width: 58.75rem;	
+	height: 25.3125rem;
+	position: absolute;
+	
+}
+
+ .degrade3-form {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 60rem;	
+	height: 25.625rem;
+	position: absolute;
+}
+
+.degrade4-form {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ff968a;
+	width: 61.25rem;	
+	height: 25.93rem;
+	position: absolute;
+}
+
+.degrade4-form, .degrade3-form, .degrade2-form, .degrade1-form, .degrade-form {
+	right: 0rem;
+	top: 1.06rem;
+
+}
+
+
+
+
+#degrade-input {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 42rem;	
+	height: 4rem;	
+	position: absolute;
+}
+
+#degrade2-input {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffc5bf;
+	width: 43rem;	
+	height: 4.3125rem;
+	position: absolute;
+	
+}
+
+#degrade3-input {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 44rem;	
+	height: 4.625rem;
+	position: absolute;
+}
+
+#degrade4-input {
+	opacity: 0.45;
+	border-radius: 6.25rem;
+	background-color: #ff968a;
+	width: 45rem;	
+	height: 4.93rem;
+	position: absolute;
+}
+
+#degrade-input, #degrade2-input, #degrade3-input, #degrade4-input {
+
+	top: 7.6rem;
+	right: 9rem;
+
+}
+
+#degrade-input2 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 36rem;	
+	height: 4rem;	
+	position: absolute;
+	
+	
+}
+
+#degrade2-input2 {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffc5bf;
+	width: 37rem;	
+	height: 4.3125rem;
+	position: absolute;
+	
+	
+}
+
+#degrade3-input2 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 38rem;	
+	height: 4.625rem;
+	position: absolute;
+	
+}
+
+#degrade4-input2 {
+	opacity: 0.45;
+	border-radius: 6.25rem;
+	background-color:  #ff968a;
+	width: 39rem;	
+	height: 4.93rem;
+	position: absolute;
+	
+	
+	
+}
+
+
+
+
+#degrade-input3 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be ;
+	width: 16rem;	
+	height: 4rem;	
+	position: absolute;
+	
+	
+}
+
+#degrade2-input3 {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ffc5bf;
+	width: 17rem;	
+	height: 4.3125rem;
+	position: absolute;
+	
+	
+}
+
+#degrade3-input3 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 18rem;	
+	height: 4.625rem;
+	position: absolute;
+	
+}
+
+#degrade4-input3 {
+	opacity: 0.45;
+	border-radius: 6.25rem;
+	background-color:  #ff968a;
+	width: 19rem;	
+	height: 4.93rem;
+	position: absolute;
+	
+	
+	
+}
+
+#degrade-input2, #degrade2-input2, #degrade3-input2, #degrade4-input2 {
+
+	top: 14.5rem;
+	right: 5rem;
+	
+ }
+
+#degrade-input3, #degrade2-input3, #degrade3-input3, #degrade4-input3 {
+
+	top: 2rem;
+	right: 20rem;
+	
+ }
+
+#news {
+ 	position: absolute;
+	top: 1.2rem;	
+	right: 20.5rem;
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ff968a;
+	text-shadow: 1.5px 1.5px  1px white;
+	
+}
+
+.formulario {
+	position: absolute;	
+	top: 8.5rem;
+	right: 10.5rem;
+	
+	
+}
+
+.formulario input {
+	padding: 0.625rem 1.25rem;
+	width: 25rem;
+	border-color:   #ffc5bf;
+	
+	
+	
+}
+
+.formulario label {
+
+	text-transform: uppercase;
+	text-weight: bold;	
+	margin-right: 1rem;
+	color: brown;
+	text-shadow: 1px 1px 1px white;
+}
+
+
+
+
+.formulario2 input{
+	position: absolute;
+	padding: 0.625rem 1.25rem;
+	width: 25rem;
+	border-color:   #ffc5bf;
+	top: 15.2rem;
+	right: 7.5rem;
+		
+	
+
+}
+
+.formulario2 label {
+	position: absolute;
+	text-transform: uppercase;
+	text-weight: bold;	
+	margin-right: 1rem;
+	color: brown;
+	top: 15.7rem;
+	right: 35.3rem;
+	text-shadow: 1px 1px 1px white;
+}
+
+.submit {
+	position: absolute;
+	top: 21rem;
+	right: 23rem;
+	
+	
+	
+		
+}
+
+
+.submit input:hover {
+	
+	transform: scale(1.2);
+	background:  #ffaea5;
+	transition: 1s all;
+	
+
+}
+.submit input {
+	width: 10rem;
+	height: 3rem;
+	background:  #ff968a;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	
+}
+
+.degrade-main {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 94rem;	
+	height: 48.5rem;	
+	position: absolute;
+	margin-right: 6rem;
+	margin-top: 1rem;
+	
+}
+
+.degrade2-main {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color:  #ffc5bf;
+	width: 98rem;	
+	height: 49rem;
+	position: absolute;
+	margin-right: 4rem;
+	margin-top: 0.5rem;
+	
+}
+
+ .degrade3-main {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ffaea5;
+	width: 102rem;	
+	height: 49.5rem;
+	position: absolute;
+	margin-right: 2rem;
+	margin-top: 0.25rem;
+	
+}
+
+.degrade4-main {
+	opacity: 0.6;
+	border-radius: 6.25rem;
+	background-color: #ff968a;
+	width: 106rem;	
+	height: 50rem;
+	position: absolute;
+}
+
+.degrade-main, .degrade2-main, .degrade3-main, .degrade4-main {
+
+	right: 4rem;
+	top: 30rem;
+	animation: inicio 5s ease;
+}
+
+#end {
+	width: 90%;
+}
+
+.degrade-main h1 {
+	position:relative;
+	left: 14rem;
+
+}
+
+
+.vl {
+	margin-top: 0.5rem;
+	border-left: 4px solid black;
+	height: 47rem;
+	position: absolute;
+	left: 44rem;
+	margin-left: -3px
+	top: 0;
+
+}
+
+.moldura-foto {
+	
+	position: relative;
+	height: 20rem;
+	width: 18rem;
+	background: white;
+	top: 16rem;
+	left: 12rem;
+	
+	animation: foto 5s ease;
+	
+}
+
+.foto {
+	position: absolute;
+	height: 16rem;
+	width: 16rem;
+	background: linear-gradient(15deg, #4c0070, #4c3f91, #9145b6, #b95ba5, #ff5677, #ffe3e3);
+	left: 1rem;
+	top:1rem;
+	background-size: 300% 300%;
+	animation: color 4s ease infinite;
+
+	
+}
+
+.moldura-foto2 {
+	
+	position: relative;
+	height: 20rem;
+	width: 18rem;
+	background: white;
+	top: 9rem;
+	left: 60rem;
+	transform: rotate(15deg);
+	animation: foto 5s ease;
+	
+}
+
+.foto2 {
+	position: absolute;
+	height: 16rem;
+	width: 16rem;
+	background: linear-gradient(15deg, #4c0070, #4c3f91, #9145b6, #b95ba5, #ff5677, #ffe3e3);
+	left: 1rem;
+	top:1rem;
+	background-size: 300% 300%;
+	animation: color 4s ease infinite;
+
+	
+}
+.quadrado {
+	position: relative;
+	height: 120px;
+	width: 120px;
+	border: 2px solid black;
+	display: inline-block;
+	top: 4rem;
+
+}
+.circulo {
+	position: relative;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: 2px dashed black;
+	display: inline-block;
+	top: 4rem;
+	left: 4rem;
+	box-shadow: 2px -2px 2px white, -2px 2px 2px lightblue;
+	
+	
+}
+
+.circulo p {
+	position:relative;
+	bottom: 4rem;
+	left: 2.7rem;
+	color: black;
+	font-size: 5rem;
+	text-shadow: 2px 2px 2px #cccccc;
+}	
+.gear {
+
+	position: absolute;
+	top: 19rem;
+	right: 100rem;
+	
+
+}
+
+.gear2{
+
+	position: absolute;
+	top: 23rem;
+	right: 94rem;
+
+}
+
+.gear3 {
+
+	position: absolute;
+	top: 19rem;
+	right: 4.5rem;
+
+}
+
+
+.gear4 {
+
+	position: absolute;
+	top: 23rem;
+	right: 10.5rem;
+
+
+}
+.gear, .gear2, .gear3, .gear4 {
+	
+	width: 10rem;
+	height: 10rem;
+	animation: gear 4s ease;
+
+}
+
+.foot{
+	background-color: black;
+	position: absolute;
+	color: grey;
+	bottom: -110vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 10rem;
+}
+
+.footex{
+	text-align: center;
+}
