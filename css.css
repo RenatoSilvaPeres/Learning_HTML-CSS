@@ -4,8 +4,8 @@ body {
 	background: linear-gradient(to top, #92bcde, #40ffed, #7ea2bf);
 	background-size: 400% 400%;
 	background-attachment: fixed;
-	height: 200vh;
-	margin: 0;
+	
+	
 
 }
 
@@ -35,14 +35,49 @@ body {
 }
 
 @keyframes foto {
+
 0% {
-	top: 60rem ;
-}
-100%{
-	top: 16rem ;
-}
+	top: 46rem ;
 }
 
+
+}
+
+@keyframes foto2 {
+
+0% {
+	top: 39rem ;
+}
+
+
+}
+
+@keyframes texto {
+
+0% {
+	top: 69.3rem ;
+}
+
+
+}
+
+@keyframes texto2 {
+
+0% {
+	top: 93rem ;
+}
+
+
+}
+
+@keyframes texto3 {
+
+0% {
+	top: 88.5rem ;
+}
+
+
+}
 @keyframes color {
 
 0% {
@@ -56,6 +91,8 @@ body {
 	background-position: 0% 50%;
 }
 }
+
+
 
 @keyframes nave {
 
@@ -555,9 +592,9 @@ a {
 }
 
 .degrade-main {
-	opacity: 0.6;
+	opacity: 0.9;
 	border-radius: 6.25rem;
-	background-color:  #ffd8be;
+	background-color: #ffd8be;
 	width: 94rem;	
 	height: 48.5rem;	
 	position: absolute;
@@ -636,8 +673,9 @@ a {
 	background: white;
 	top: 16rem;
 	left: 12rem;
-	
+		
 	animation: foto 5s ease;
+
 	
 }
 
@@ -663,7 +701,7 @@ a {
 	top: 9rem;
 	left: 60rem;
 	transform: rotate(15deg);
-	animation: foto 5s ease;
+	animation: foto2 5s ease;
 	
 }
 
@@ -671,7 +709,7 @@ a {
 	position: absolute;
 	height: 16rem;
 	width: 16rem;
-	background: linear-gradient(15deg, #4c0070, #4c3f91, #9145b6, #b95ba5, #ff5677, #ffe3e3);
+	background: linear-gradient(15deg, #000b49, #9b0000, #ff7272, #ffb5b5);
 	left: 1rem;
 	top:1rem;
 	background-size: 300% 300%;
@@ -683,10 +721,25 @@ a {
 	position: relative;
 	height: 120px;
 	width: 120px;
-	border: 2px solid black;
+	border: 2px dashed black;
 	display: inline-block;
 	top: 4rem;
+	left: 4rem;
+	box-shadow: 2px -2px 2px white, -2px 2px 2px lightblue;
 
+
+}
+
+.quadrado p {
+
+	position:relative;
+	bottom: 4rem;
+	left: 2.7rem;
+	color: black;
+	font-size: 5rem;
+	text-shadow: 2px 2px 2px #cccccc;
+
+	
 }
 .circulo {
 	position: relative;
@@ -709,7 +762,42 @@ a {
 	color: black;
 	font-size: 5rem;
 	text-shadow: 2px 2px 2px #cccccc;
+}
+
+#texto, #texto2, #texto3, #texto4 {
+	position: absolute;
+	font-size: 1rem;
+	resize: none;
+	background: none;
+	border: none;
+	font-weight: bold;
+	opacity: 0.8;
 }	
+
+#texto {
+
+	left: 31rem;
+	top: 39.2rem;
+	animation: texto 5s ease;
+}
+
+#texto2 {
+	left: 12rem;
+	top:63rem;
+	animation: texto2 5s ease;
+	
+}
+
+#texto3 {
+	left: 55.2rem;
+	top: 39.2rem;
+	animation: texto 5s ease;
+}
+#texto4 {
+	left: 82rem;
+	top: 58.5rem;
+	animation: texto3 5s ease;
+}
 .gear {
 
 	position: absolute;
@@ -752,17 +840,9 @@ a {
 
 }
 
-.foot{
-	background-color: black;
-	position: absolute;
-	color: grey;
-	bottom: -110vh;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	height: 10rem;
-}
+footer {
 
-.footex{
-	text-align: center;
-}
+	
+	
+
+}                        
