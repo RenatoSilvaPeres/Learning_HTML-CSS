@@ -1,1 +1,1 @@
-# My Journey into Learning how to front-end.
+# My Journey into Learning how to front-end. Starting: now
