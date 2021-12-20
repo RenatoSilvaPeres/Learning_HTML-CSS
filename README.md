@@ -1,1 +1,1 @@
-# THIS IS A README!
+# My Journey into Learning how to front-end.
