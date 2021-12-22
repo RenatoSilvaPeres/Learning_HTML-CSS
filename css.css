@@ -130,52 +130,23 @@ body {
 
 
 
-.fundo {
-	opacity: 0.6;
+.degrade-nav {
+	opacity: 0.9;
 	border-radius: 6.25rem; 
 	background-color: #ffd8be;
 	width: 48.75rem;	
 	height: 25rem;	
 	position: absolute;
-	
+	box-shadow: 14px 5px 0 5px #ffc5bf, 27px 10px 0 8px  #ffaea5, 41px 15px 0 12px #ff968a;	
 }
 
-.degrade-fundo {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:  #ffc5bf;
-	width: 50rem;	
-	height: 25.32rem;
-	position: absolute;
-	
-}
 
-.degrade2-fundo {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 51.25rem;	
-	height: 25.63rem;
-	position: absolute;
-
-}
-
-.degrade3-fundo {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:#ff968a;
-	width: 52.5rem;	
-	height: 25.94rem;
-	position: absolute;
-	
-
-}
 .caixa {
 	
 	position: relative;
-	width: 62.5rem;
+	width: 100%;
 	height: 25rem;
-	margin-left: 8.125rem;
+
 	
 	
 	
@@ -195,7 +166,7 @@ body {
 a {
 	
 	
-	width: 40%;
+	width: 22%;
 	height: 35%;
 	
 	text-align: center;	
@@ -223,7 +194,7 @@ a {
 	background-color: #FFAABE;
 	position: absolute;
 	top: 20%;
-	left: 0%;
+	left: 7%;
 	border-radius: 5.81rem;
 	font-size: 0;
 	padding-top: 1.25rem;
@@ -251,7 +222,7 @@ a {
 	background-color: #FF8BA9;
 	position: absolute;
 	top: 30%;
-	left: 10%;
+	left: 12%;
 	border-radius: 6.25rem;
 	font-size: 0;
 	animation: nave 1.5s ease infinite;
@@ -273,7 +244,7 @@ a {
 	background-color: #FF6A95;
 	position: absolute;
 	top: 40%;
-	left: 20%;
+	left: 17%;
 	border-radius: 6.25rem;
 	font-size: 0;
 	padding-top: 1.25rem;
@@ -294,7 +265,7 @@ a {
 	background-color: #FF4081;
 	position: absolute;
 	top: 50%;
-	left: 30%;
+	left: 22%;
 	border-radius: 6.25rem;
 	font-size: 6.25rem;
 	padding-top: 0.75rem;
@@ -304,43 +275,17 @@ a {
 }
 
 .degrade-form {
-	opacity: 0.6;
+	opacity: 0.95;
 	border-radius: 6.25rem;
 	background-color:  #ffd8be;
 	width: 57.5rem;	
 	height: 25rem;	
 	position: absolute;
+	box-shadow: -14px 5px 0 5px #ffc5bf, -27px 10px 0 8px  #ffaea5, -41px 15px 0 12px #ff968a;
 }
 
-.degrade2-form {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:  #ffc5bf;
-	width: 58.75rem;	
-	height: 25.3125rem;
-	position: absolute;
-	
-}
 
- .degrade3-form {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 60rem;	
-	height: 25.625rem;
-	position: absolute;
-}
-
-.degrade4-form {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ff968a;
-	width: 61.25rem;	
-	height: 25.93rem;
-	position: absolute;
-}
-
-.degrade4-form, .degrade3-form, .degrade2-form, .degrade1-form, .degrade-form {
+.degrade-form {
 	right: 0rem;
 	top: 1.06rem;
 
@@ -350,41 +295,16 @@ a {
 
 
 #degrade-input {
-	opacity: 1;
+	opacity: 0.8;
 	border-radius: 6.25rem;
 	background-color:  #ffd8be;
 	width: 42rem;	
 	height: 4rem;	
 	position: absolute;
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
 }
 
-#degrade2-input {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:  #ffc5bf;
-	width: 43rem;	
-	height: 4.3125rem;
-	position: absolute;
-	
-}
 
-#degrade3-input {
-	opacity: 1;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 44rem;	
-	height: 4.625rem;
-	position: absolute;
-}
-
-#degrade4-input {
-	opacity: 0.45;
-	border-radius: 6.25rem;
-	background-color: #ff968a;
-	width: 45rem;	
-	height: 4.93rem;
-	position: absolute;
-}
 
 #degrade-input, #degrade2-input, #degrade3-input, #degrade4-input {
 
@@ -400,39 +320,7 @@ a {
 	width: 36rem;	
 	height: 4rem;	
 	position: absolute;
-	
-	
-}
-
-#degrade2-input2 {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:  #ffc5bf;
-	width: 37rem;	
-	height: 4.3125rem;
-	position: absolute;
-	
-	
-}
-
-#degrade3-input2 {
-	opacity: 1;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 38rem;	
-	height: 4.625rem;
-	position: absolute;
-	
-}
-
-#degrade4-input2 {
-	opacity: 0.45;
-	border-radius: 6.25rem;
-	background-color:  #ff968a;
-	width: 39rem;	
-	height: 4.93rem;
-	position: absolute;
-	
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
 	
 	
 }
@@ -447,42 +335,12 @@ a {
 	width: 16rem;	
 	height: 4rem;	
 	position: absolute;
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
 	
 	
 }
 
-#degrade2-input3 {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ffc5bf;
-	width: 17rem;	
-	height: 4.3125rem;
-	position: absolute;
-	
-	
-}
 
-#degrade3-input3 {
-	opacity: 1;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 18rem;	
-	height: 4.625rem;
-	position: absolute;
-	
-}
-
-#degrade4-input3 {
-	opacity: 0.45;
-	border-radius: 6.25rem;
-	background-color:  #ff968a;
-	width: 19rem;	
-	height: 4.93rem;
-	position: absolute;
-	
-	
-	
-}
 
 #degrade-input2, #degrade2-input2, #degrade3-input2, #degrade4-input2 {
 
@@ -498,7 +356,7 @@ a {
 	
  }
 
-#news {
+main > p {
  	position: absolute;
 	top: 1.2rem;	
 	right: 20.5rem;
@@ -600,43 +458,25 @@ a {
 	position: absolute;
 	margin-right: 6rem;
 	margin-top: 1rem;
+	box-shadow: -15px 10px 0  #ffc5bf,
+		 15px -10px 0  #ffc5bf,
+		 15px 10px 0  #ffc5bf,	
+		 -15px -10px 0  #ffc5bf,
+
+		 -30px 20px 0   #ffaea5,
+		 30px -20px 0   #ffaea5,
+		30px 20px 0   #ffaea5,
+		-30px -20px 0   #ffaea5,
+
+		 -45px 30px 0  #ff968a,
+		 45px -30px 0  #ff968a,
+		 45px 30px 0  #ff968a,
+		 -45px -30px 0  #ff968a;
 	
 }
 
-.degrade2-main {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color:  #ffc5bf;
-	width: 98rem;	
-	height: 49rem;
-	position: absolute;
-	margin-right: 4rem;
-	margin-top: 0.5rem;
-	
-}
 
- .degrade3-main {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ffaea5;
-	width: 102rem;	
-	height: 49.5rem;
-	position: absolute;
-	margin-right: 2rem;
-	margin-top: 0.25rem;
-	
-}
-
-.degrade4-main {
-	opacity: 0.6;
-	border-radius: 6.25rem;
-	background-color: #ff968a;
-	width: 106rem;	
-	height: 50rem;
-	position: absolute;
-}
-
-.degrade-main, .degrade2-main, .degrade3-main, .degrade4-main {
+.degrade-main  {
 
 	right: 4rem;
 	top: 30rem;
@@ -845,4 +685,4 @@ footer {
 	
 	
 
-}                        
+}                        
