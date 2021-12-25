@@ -127,31 +127,84 @@ body {
 }
 
 
+.flexcontainer {
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+	
+}
 
 
-
-.degrade-nav {
+.item1 {
 	opacity: 0.9;
 	border-radius: 6.25rem; 
 	background-color: #ffd8be;
-	width: 48.75rem;	
+	width: 43%;	
 	height: 25rem;	
-	position: absolute;
-	box-shadow: 14px 5px 0 5px #ffc5bf, 27px 10px 0 8px  #ffaea5, 41px 15px 0 12px #ff968a;	
+	box-shadow:  14px 5px 0 5px #ffc5bf, 27px 10px 0 8px  #ffaea5, 41px 15px 0 12px #ff968a;	
+}
+
+.item2 {
+	opacity: 0.95;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 51%;	
+	height: 25rem;	
+	box-shadow: -14px 5px 0 5px #ffc5bf, -27px 10px 0 8px  #ffaea5, -41px 15px 0 12px #ff968a;
+}
+
+.flexcontainer2 {
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.degrade-input {
+	opacity: 0.8;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 75%;	
+	height: 4rem;	
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
+	margin-top: 25px;
+	margin-right: 15px;
 }
 
 
-.caixa {
-	
-	position: relative;
-	width: 100%;
-	height: 25rem;
 
-	
-	
-	
+
+
+.degrade-input2 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be;
+	width: 67%;	
+	height: 4rem;	
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
+	margin-top: 43px;
+	margin-left: 10vw;
 	
 }
+
+
+
+
+.degrade-input3 {
+	opacity: 1;
+	border-radius: 6.25rem;
+	background-color:  #ffd8be ;
+	width: 30%;	
+	height: 4rem;	
+	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
+	margin-top: 25px;
+	margin-left: 39px;
+}
+
+
+
+
 
 
 .lista li {
@@ -183,7 +236,7 @@ a {
 	color:#FF4081;
 	top: 0.94rem;
 	transition: top 0.5s;
-	font-size: 5.62rem;
+	font-size: 5vw;
 	opacity: 1;
 	
 	
@@ -210,7 +263,7 @@ a {
 	color:#FF4081;
 	top: 45px;
 	transition: top 0.5s;
-	font-size: 5.51rem;
+	font-size: 5.5vw;
 	opacity: 1;
 	padding-top: 0.93rem;
 	
@@ -234,7 +287,7 @@ a {
 	color: #FF4081;
 	top: 5.625rem;
 	transition: top 0.5s;
-	font-size: 4.81rem;
+	font-size: 4vw;
 	opacity: 1;
 		
 }
@@ -267,118 +320,44 @@ a {
 	top: 50%;
 	left: 22%;
 	border-radius: 6.25rem;
-	font-size: 6.25rem;
-	padding-top: 0.75rem;
+	font-size: 5.5vw;
+	padding-top: 0.7vw;
 	animation: nave 1.5s ease infinite;
 	
 	
 }
 
-.degrade-form {
-	opacity: 0.95;
-	border-radius: 6.25rem;
-	background-color:  #ffd8be;
-	width: 57.5rem;	
-	height: 25rem;	
-	position: absolute;
-	box-shadow: -14px 5px 0 5px #ffc5bf, -27px 10px 0 8px  #ffaea5, -41px 15px 0 12px #ff968a;
-}
-
-
-.degrade-form {
-	right: 0rem;
-	top: 1.06rem;
-
-}
 
 
 
 
-#degrade-input {
-	opacity: 0.8;
-	border-radius: 6.25rem;
-	background-color:  #ffd8be;
-	width: 42rem;	
-	height: 4rem;	
-	position: absolute;
-	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
-}
 
 
 
-#degrade-input, #degrade2-input, #degrade3-input, #degrade4-input {
 
-	top: 7.6rem;
-	right: 9rem;
 
-}
-
-#degrade-input2 {
-	opacity: 1;
-	border-radius: 6.25rem;
-	background-color:  #ffd8be;
-	width: 36rem;	
-	height: 4rem;	
-	position: absolute;
-	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
+.degrade-input3   p {
 	
-	
-}
-
-
-
-
-#degrade-input3 {
-	opacity: 1;
-	border-radius: 6.25rem;
-	background-color:  #ffd8be ;
-	width: 16rem;	
-	height: 4rem;	
-	position: absolute;
-	box-shadow: -10px 5px 0 5px #ffc5bf, -20px 10px 0 8px  #ffaea5, -30px 15px 0 12px #ff968a;
-	
-	
-}
-
-
-
-#degrade-input2, #degrade2-input2, #degrade3-input2, #degrade4-input2 {
-
-	top: 14.5rem;
-	right: 5rem;
-	
- }
-
-#degrade-input3, #degrade2-input3, #degrade3-input3, #degrade4-input3 {
-
-	top: 2rem;
-	right: 20rem;
-	
- }
-
-main > p {
- 	position: absolute;
-	top: 1.2rem;	
-	right: 20.5rem;
-	font-size: 1.9rem;
+	font-size: 1.75vw;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #ff968a;
 	text-shadow: 1.5px 1.5px  1px white;
+	margin: 12px;
 	
 }
 
 .formulario {
 	position: absolute;	
-	top: 8.5rem;
-	right: 10.5rem;
+	top: 8rem;
+	right: 9vw;
 	
 	
 }
 
 .formulario input {
 	padding: 0.625rem 1.25rem;
-	width: 25rem;
+	width: 22vw;
 	border-color:   #ffc5bf;
 	
 	
@@ -386,10 +365,10 @@ main > p {
 }
 
 .formulario label {
-
+	font-size: 0.9vw;
 	text-transform: uppercase;
 	text-weight: bold;	
-	margin-right: 1rem;
+	margin-right: 0.5vw;
 	color: brown;
 	text-shadow: 1px 1px 1px white;
 }
@@ -400,30 +379,31 @@ main > p {
 .formulario2 input{
 	position: absolute;
 	padding: 0.625rem 1.25rem;
-	width: 25rem;
+	width: 22vw;
 	border-color:   #ffc5bf;
-	top: 15.2rem;
-	right: 7.5rem;
+	top: 14.7rem;
+	right: 5vw;
 		
 	
 
 }
 
 .formulario2 label {
+	font-size: 0.9vw;
 	position: absolute;
 	text-transform: uppercase;
 	text-weight: bold;	
-	margin-right: 1rem;
+	
 	color: brown;
-	top: 15.7rem;
-	right: 35.3rem;
+	top: 15.2rem;
+	right:31vw;
 	text-shadow: 1px 1px 1px white;
 }
 
 .submit {
 	position: absolute;
 	top: 21rem;
-	right: 23rem;
+	right: 23vw;
 	
 	
 	
@@ -440,7 +420,7 @@ main > p {
 
 }
 .submit input {
-	width: 10rem;
+	width: 9vw;
 	height: 3rem;
 	background:  #ff968a;
 	font-weight: bold;
@@ -453,11 +433,11 @@ main > p {
 	opacity: 0.9;
 	border-radius: 6.25rem;
 	background-color: #ffd8be;
-	width: 94rem;	
+	width: 90%;	
 	height: 48.5rem;	
 	position: absolute;
-	margin-right: 6rem;
-	margin-top: 1rem;
+	margin: 0 auto;
+	
 	box-shadow: -15px 10px 0  #ffc5bf,
 		 15px -10px 0  #ffc5bf,
 		 15px 10px 0  #ffc5bf,	
@@ -489,18 +469,19 @@ main > p {
 
 .degrade-main h1 {
 	position:relative;
-	left: 14rem;
+	width: 50%;
+	padding-left: 10rem;
+	
 
 }
 
 
 .vl {
 	margin-top: 0.5rem;
-	border-left: 4px solid black;
+	border-left: 4px solid #ff968a;
 	height: 47rem;
 	position: absolute;
-	left: 44rem;
-	margin-left: -3px
+	left: 50%;
 	top: 0;
 
 }
@@ -508,11 +489,11 @@ main > p {
 .moldura-foto {
 	
 	position: relative;
-	height: 20rem;
-	width: 18rem;
+	height: 18vw;
+	width: 16%;
 	background: white;
 	top: 16rem;
-	left: 12rem;
+	left: 10%;
 		
 	animation: foto 5s ease;
 
@@ -520,12 +501,12 @@ main > p {
 }
 
 .foto {
-	position: absolute;
-	height: 16rem;
-	width: 16rem;
+	position: relative;
+	height: 80%;
+	width: 90%;
 	background: linear-gradient(15deg, #4c0070, #4c3f91, #9145b6, #b95ba5, #ff5677, #ffe3e3);
-	left: 1rem;
-	top:1rem;
+	top: 1vw;
+	left: 0.8vw;
 	background-size: 300% 300%;
 	animation: color 4s ease infinite;
 
@@ -535,61 +516,62 @@ main > p {
 .moldura-foto2 {
 	
 	position: relative;
-	height: 20rem;
-	width: 18rem;
+	height: 18vw;
+	width: 16%;
 	background: white;
 	top: 9rem;
-	left: 60rem;
+	left: 55%;
 	transform: rotate(15deg);
 	animation: foto2 5s ease;
 	
 }
 
 .foto2 {
-	position: absolute;
-	height: 16rem;
-	width: 16rem;
+	position: relative;
+	height: 80%;
+	width: 90%;
 	background: linear-gradient(15deg, #000b49, #9b0000, #ff7272, #ffb5b5);
-	left: 1rem;
-	top:1rem;
+	top: 1vw;
+	left: 0.8vw;
 	background-size: 300% 300%;
 	animation: color 4s ease infinite;
 
 	
 }
 .quadrado {
+
 	position: relative;
-	height: 120px;
-	width: 120px;
+	height: 50%;
+	width: 50%;
 	border: 2px dashed black;
 	display: inline-block;
-	top: 4rem;
-	left: 4rem;
+	top: 3.5vw;
+	left: 3.5vw;
 	box-shadow: 2px -2px 2px white, -2px 2px 2px lightblue;
 
 
 }
 
 .quadrado p {
-
+	
 	position:relative;
-	bottom: 4rem;
-	left: 2.7rem;
+	bottom: 4.5vw;
+	left: 2.1vw;
 	color: black;
-	font-size: 5rem;
+	font-size: 5vw;
 	text-shadow: 2px 2px 2px #cccccc;
 
 	
 }
 .circulo {
 	position: relative;
-	height: 120px;
-	width: 120px;
+	height: 50%;
+	width: 50%;
 	border-radius: 50%;
 	border: 2px dashed black;
 	display: inline-block;
-	top: 4rem;
-	left: 4rem;
+	top: 3.5vw;
+	left: 3.5vw;
 	box-shadow: 2px -2px 2px white, -2px 2px 2px lightblue;
 	
 	
@@ -597,10 +579,10 @@ main > p {
 
 .circulo p {
 	position:relative;
-	bottom: 4rem;
-	left: 2.7rem;
+	bottom: 4.5vw;
+	left: 2.1vw;
 	color: black;
-	font-size: 5rem;
+	font-size: 5vw;
 	text-shadow: 2px 2px 2px #cccccc;
 }
 
@@ -615,27 +597,34 @@ main > p {
 }	
 
 #texto {
-
-	left: 31rem;
-	top: 39.2rem;
+	height: 55%;
+	width: 20%;
+	left: 26%;
+	top: 16.2%;
 	animation: texto 5s ease;
 }
 
-#texto2 {
-	left: 12rem;
-	top:63rem;
+#texto2 {	
+	width: 41%;
+	height: 26%;
+	left: 5%;
+	top: 71%;
 	animation: texto2 5s ease;
 	
 }
 
 #texto3 {
-	left: 55.2rem;
-	top: 39.2rem;
+	height: 26%;
+	width: 41%;
+	left: 53%;
+	top: 16.2%;
 	animation: texto 5s ease;
 }
 #texto4 {
-	left: 82rem;
-	top: 58.5rem;
+	height: 33%;
+	width: 20%;
+	left: 76%;
+	top: 64%;
 	animation: texto3 5s ease;
 }
 .gear {
@@ -686,3 +675,12 @@ footer {
 	
 
 }                        
+
+
+.hr1 p{
+	border-bottom: 2px solid #cccccc;
+	font-size: 13px;
+}
+
+
+
