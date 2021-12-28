@@ -1,6 +1,6 @@
 
 body {
-	
+	margin: 0;
 	background: linear-gradient(to top, #92bcde, #40ffed, #7ea2bf);
 	background-size: 400% 400%;
 	background-attachment: fixed;
@@ -25,19 +25,19 @@ body {
 @keyframes inicio {
 
 0% {
-	top: 60rem ;
+	top: 30rem ;
 }
 
 
 100%{
-	top: 30rem ;
+	top: 5.5rem ;
 }
 }
 
 @keyframes foto {
 
 0% {
-	top: 46rem ;
+	top: 9rem ;
 }
 
 
@@ -46,7 +46,7 @@ body {
 @keyframes foto2 {
 
 0% {
-	top: 39rem ;
+	top: 25rem ;
 }
 
 
@@ -55,7 +55,7 @@ body {
 @keyframes texto {
 
 0% {
-	top: 69.3rem ;
+	top: 8rem ;
 }
 
 
@@ -64,7 +64,7 @@ body {
 @keyframes texto2 {
 
 0% {
-	top: 93rem ;
+	top: 35rem ;
 }
 
 
@@ -73,7 +73,7 @@ body {
 @keyframes texto3 {
 
 0% {
-	top: 88.5rem ;
+	top: 32rem ;
 }
 
 
@@ -337,13 +337,13 @@ a {
 
 
 .degrade-input3   p {
-	
-	font-size: 1.75vw;
+	text-align: center;
+	font-size: 1.24vw;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #ff968a;
 	text-shadow: 1.5px 1.5px  1px white;
-	margin: 12px;
+	
 	
 }
 
@@ -435,9 +435,10 @@ a {
 	background-color: #ffd8be;
 	width: 90%;	
 	height: 48.5rem;	
-	position: absolute;
+	position: relative;
 	margin: 0 auto;
-	
+	top: 5.5rem;
+	animation: inicio 5s ease;
 	box-shadow: -15px 10px 0  #ffc5bf,
 		 15px -10px 0  #ffc5bf,
 		 15px 10px 0  #ffc5bf,	
@@ -456,21 +457,14 @@ a {
 }
 
 
-.degrade-main  {
 
-	right: 4rem;
-	top: 30rem;
-	animation: inicio 5s ease;
-}
 
-#end {
-	width: 90%;
-}
 
 .degrade-main h1 {
 	position:relative;
-	width: 50%;
-	padding-left: 10rem;
+	margin-left: 15vw;
+	font-size: 2vw;
+	top: 1vw;
 	
 
 }
@@ -488,12 +482,13 @@ a {
 
 .moldura-foto {
 	
-	position: relative;
+	position: absolute;
 	height: 18vw;
 	width: 16%;
 	background: white;
-	top: 16rem;
-	left: 10%;
+	
+	top: 18%;
+	left: 5%;
 		
 	animation: foto 5s ease;
 
@@ -515,11 +510,11 @@ a {
 
 .moldura-foto2 {
 	
-	position: relative;
+	position: absolute;
 	height: 18vw;
 	width: 16%;
 	background: white;
-	top: 9rem;
+	top:50%;
 	left: 55%;
 	transform: rotate(15deg);
 	animation: foto2 5s ease;
@@ -627,20 +622,37 @@ a {
 	top: 64%;
 	animation: texto3 5s ease;
 }
+#texto5 {
+	position: relative;
+	margin-left: 5.5vw;
+	font-size: 2vw;
+	top: 1vw;
+	resize: none;
+	background: none;
+	border: none;
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+.hr1 p{
+	border-bottom: 2px solid #cccccc;
+	font-size: 13px;
+}
 .gear {
 
 	position: absolute;
 	top: 19rem;
-	right: 100rem;
+	left: 4%;
 	
 
 }
+
 
 .gear2{
 
 	position: absolute;
 	top: 23rem;
-	right: 94rem;
+	left: 9.5%;
 
 }
 
@@ -648,7 +660,7 @@ a {
 
 	position: absolute;
 	top: 19rem;
-	right: 4.5rem;
+	right: 4%;
 
 }
 
@@ -657,7 +669,7 @@ a {
 
 	position: absolute;
 	top: 23rem;
-	right: 10.5rem;
+	right: 9.5%;
 
 
 }
@@ -670,17 +682,56 @@ a {
 }
 
 footer {
-
-	
-	
+	display: flex;
+	margin-top: 25vw;
+	width: 100%;
+	height: 10vw;
+	background-color: #1f1d36;
+	box-shadow: -5px -8px #3f3351, -5px -14px #864879, -5px -18px #e9a6a6;
 
 }                        
 
-
-.hr1 p{
-	border-bottom: 2px solid #cccccc;
-	font-size: 13px;
+.detalhe {
+	background-color: #1f1d36;
+	width: 10%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	bottom: 70%;
+	right: 5%;
+	z-index: 1;
+	box-shadow: -5px -12px #3f3351, -7px -18px #864879, -10px -26px #e9a6a6;
 }
 
+.detalhe2 {
+	background-color: #1f1d36;
+	width: 10%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	bottom: 40%;
+	right: 10%;
+	box-shadow: -2px -12px #3f3351, -2px -18px  #b958a5, -2px -23px #e9a6a6;
+}
 
+.detalhe3 {
+	background-color: #1f1d36;
+	width: 10%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	left: 70%;
+	bottom: 40%;
+	box-shadow: 2px -12px #3f3351, 2px -18px #b958a5, 2px -23px #e9a6a6;
+}
 
+.detalhe4 {
+	background-color: #1f1d36;
+	width: 10%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	left: 65%;
+	bottom: 70%;
+	box-shadow: 5px -12px #3f3351, 7px -18px #b958a5, 10px -26px #e9a6a6;
+}
