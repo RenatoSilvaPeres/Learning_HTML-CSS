@@ -396,7 +396,7 @@ a {
 	
 	color: brown;
 	top: 15.2rem;
-	right:31vw;
+	right:32vw;
 	text-shadow: 1px 1px 1px white;
 }
 
@@ -426,10 +426,12 @@ a {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: white;
+	font-size: 1vw;
 	
 }
 
 .degrade-main {
+	
 	opacity: 0.9;
 	border-radius: 6.25rem;
 	background-color: #ffd8be;
@@ -682,6 +684,7 @@ a {
 }
 
 footer {
+	
 	display: flex;
 	margin-top: 25vw;
 	width: 100%;
@@ -727,11 +730,476 @@ footer {
 
 .detalhe4 {
 	background-color: #1f1d36;
-	width: 10%;
-	height: 100%;
-	border-radius: 50%;
+	width: 5vw;
+	height: 10vw;
+	border-top-left-radius: 10vw;
+	border-bottom-left-radius: 10vw;
 	position: relative;
 	left: 65%;
 	bottom: 70%;
 	box-shadow: 5px -12px #3f3351, 7px -18px #b958a5, 10px -26px #e9a6a6;
+}
+
+.hideform, #label, #chec {
+	display: none;
+
+}
+@media screen and (max-width: 1400px) {
+
+
+.item2 { 
+	width: 49.5%;
+
+}
+.home a {
+	
+	padding-top: 1.6vw;
+}
+
+}
+@media screen and (max-width: 1200px) { 
+
+.formulario2 label, .formulario label {
+		
+	font-size: 0;
+}		
+
+.formulario2 input {
+
+	right: 7vw;
+
+} 	
+.formulario input {
+	margin-right: 4vw;
+
+}
+.degrade-input3  p {
+	margin-top: 2vw;
+	
+}
+
+.item2 {
+	width: 48%;
+
+}
+}
+
+@media screen and (max-width: 900px) {
+
+.gear2, .gear4 {
+	display:none;
+
+}
+
+.gear,  .gear3 {
+	top: 17rem;
+	width: 15vw;
+	height: 15vw;
+
+}
+
+.hideform, #label, #chec {
+	display: initial;
+}
+
+.item2, .degrade-input3  p, .degrade-input3, .formulario2 input, .formulario input, .submit input, .formulario, .degrade-input2, .degrade-input { 
+	display: none;
+
+}
+
+.item1 {
+	margin:0 auto;
+	width: 93%;
+	height: 12rem;
+	box-shadow:  
+		14px 5px 0 5px #ffc5bf,
+		-14px 5px 0 5px #ffc5bf,
+		 27px 10px 0 8px  #ffaea5,
+		-27px 10px 0 8px  #ffaea5,
+		41px 15px 0 12px #ff968a,
+		 -41px 15px 0 12px #ff968a;
+}
+a {
+	width: 19%;
+
+}
+
+.home a, .config a, .contato a, .sobre a {
+	padding-top: 0.5rem;
+	top: 32%;
+	box-shadow: 
+		 6px 6px   #ffaea5, 
+		-6px 6px  #ffaea5,
+		-10px 10px #ff968a,
+		10px 10px #ff968a;
+	background-color: #FF4081;
+	
+	
+	
+}
+.home a {
+	left: 74%;
+	
+	font-size: 5vw;
+}
+
+
+.contato a {
+	left: 51.8%;
+	font-size: 4.5vw;
+	
+
+}
+
+
+.sobre a {
+
+ 	left: 29.6%;
+	font-size: 4.5vw;
+	
+}
+
+.config a {
+
+	left: 7.4%;
+	font-size: 4vw;
+	
+
+}
+
+.config a:hover, .sobre a:hover, .contato a:hover, .home a:hover {
+	top: 32%;
+	transition: none;
+	font-size: 4vw;
+	padding-top: 0.5rem;
+}
+
+.form-responsivo {
+
+	position: relative;
+	margin: 0 auto;
+	margin-top: 1.7rem;
+	width: 80%;
+	padding-top: 0.5vw;
+	padding-bottom: 2.5vw;
+	
+	box-shadow:  
+		14px 5px 0 5px #ffc5bf,
+		-14px 5px 0 5px #ffc5bf,
+		 27px 10px 0 8px  #ffaea5,
+		-27px 10px 0 8px  #ffaea5,
+		41px 15px 0 12px #ff968a,
+		 -41px 15px 0 12px #ff968a;
+	opacity: 0.9;
+	border-radius: 6.25rem; 
+	background-color: #ffd8be
+	
+}
+#chec {
+	display: none;
+
+}
+
+#label {
+	color: white;
+	padding: 0 5px;
+	
+	font-size: 5vw;
+	margin-left: 46%;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FF4081;
+	border-radius: 50%;
+	box-shadow: 
+		 3px 6px   #ffaea5, 
+		-3px 6px  #ffaea5,
+		-5px 12px  #ff968a,
+		5px 12px  #ff968a;
+	
+}
+#label:hover {
+	background-color: white;
+	cursor: pointer;
+	color:red;
+	
+
+}
+.form-responsivo form {
+	
+	display: none;
+	
+}
+
+
+
+input[type="checkbox"]:checked ~ form {
+	display: initial;
+	
+}
+
+.formulario9  {
+	
+	padding-top: 3% ;
+	margin-left: 19%;
+	margin-bottom: 10%;
+	
+
+}
+.formulario29 {
+	
+	margin-bottom: 10%;
+	margin-left: 30%;
+
+}
+	
+.submit9 {
+	margin-left: 35%;
+	padding-bottom: 3%;
+	
+
+}
+.submit9 input:hover {
+	
+	transform: scale(1.2);
+	background:  #ffaea5;
+	transition: 1s all;
+	
+
+}
+.submit9 input {
+	
+	
+	background:  #ff968a;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 3vw;
+	
+}
+
+.formulario9 input {
+	
+	border-color:   #ffc5bf;
+	
+	
+	
+}
+
+.formulario9 label {
+	
+	text-transform: uppercase;
+	text-weight: bold;	
+	
+	color: brown;
+	text-shadow: 1px 1px 1px white;
+}
+
+
+
+
+.formulario29 input{
+	
+	
+	border-color:   #ffc5bf;
+	
+		
+	
+
+}
+
+.formulario29 label {
+	
+	
+	text-transform: uppercase;
+	text-weight: bold;	
+	
+	color: brown;
+	
+	text-shadow: 1px 1px 1px white;
+}
+}
+
+@media screen and (max-width: 400px) {
+a {
+	width: 30%;
+	height: 25%
+}
+
+.home a, .config a, .contato a, .sobre a {
+	padding-top: 5vw;
+	box-shadow: 
+		 6px 6px   #ffaea5, 
+		-6px 6px  #ffaea5,
+		-10px 10px #ff968a,
+		10px 10px #ff968a;
+	background-color: #FF4081;
+}
+.home a, .config a {
+	
+	top: 10%;
+
+}
+.contato a, .sobre a {
+	top: 50%;
+}
+
+.home a {
+	left: 53%;
+	
+	font-size: 5vw;
+}
+
+
+.contato a {
+	left: 53%;
+	font-size: 4.5vw;
+	
+
+}
+
+
+.sobre a {
+
+ 	left: 17%;
+	font-size: 4.5vw;
+	
+}
+
+.config a {
+
+	left: 17%;
+	font-size: 4vw;
+	
+
+}
+.contato a:hover, .sobre a:hover{
+	top: 50%;
+	transition: none;
+	font-size: 4vw;
+	padding-top: 0.5rem;
+}
+
+.config a:hover, .home a:hover {
+	top: 10%;
+}
+
+footer {
+	margin-top: 60vw;
+}
+.gear,  .gear3 {
+	top: 15.7rem;
+	width: 20vw;
+	height: 20vw;
+
+}
+
+.formulario9  {
+	
+	display:block;
+	margin-left: 21%;
+	
+	
+
+}
+.formulario29 {
+	display: block;
+	width: 40%;
+	margin-left: 23%;
+}
+	
+.submit9 {
+	margin-left: 25%;
+	padding-bottom: 3%;
+	
+
+}
+
+	
+
+
+.submit9 input {
+	
+	
+	background:  #ff968a;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 5vw;
+	
+}
+
+.formulario9 input {
+	
+	border-color:   #ffc5bf;
+	margin-top: 2vw;
+	
+	
+}
+
+.formulario9 label {
+	font-size: 4.5vw;
+	text-transform: uppercase;
+	text-weight: bold;	
+	
+	color: brown;
+	text-shadow: 1px 1px 1px white;
+}
+
+
+
+
+.formulario29 input{
+	
+	margin-top: 2vw;
+	border-color:   #ffc5bf;
+	
+		
+	
+
+}
+
+.formulario29 label {
+	
+	font-size:4.5vw;
+	text-transform: uppercase;
+	text-weight: bold;	
+	
+	color: brown;
+	
+	text-shadow: 1px 1px 1px white;
+}
+
+.degrade-main {
+z-index:2;
+}
+.vl, .moldura-foto2, .foto2, .quadrado, .circulo {
+	display: none;
+}
+#texto5 {
+	font-size: 5vw;
+	width: 86%;
+	left: 10%;	
+}
+#texto3, #texto4 {
+	left: -60%;
+
+}
+#texto, #texto2 {
+	left: 10%;
+	width: 80%;
+}
+#texto {	
+	top: 21%;
+	height: 50%;
+
+}
+.moldura-foto {
+	top: 5%;
+	left: 40%;
+	height: 15%;
+	width: 30%;
+
+}
+
+
 }
